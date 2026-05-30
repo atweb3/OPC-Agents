@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel>=0.40"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-opc-ai-workflows"
+version = "0.1.0"
+description = "NianGao Dad's personal OPC one-person-company AI workflow kit"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "NianGao Dad"}]
+license = {text = "MIT"}
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+personal-opc = "personal_opc_workflows.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["personal_opc_workflows*"]
+
+[tool.setuptools.package-data]
+personal_opc_workflows = ["data/samples/*.json"]
