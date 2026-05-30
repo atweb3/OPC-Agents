@@ -1,0 +1,10 @@
+{
+  "company_name": "年糕爸爸商业图书实验室",
+  "themes": ["公司历史", "管理实践"],
+  "target_client": "创始人、品牌负责人、董秘、校友企业主",
+  "offline_prices": [180000, 380000, 580000],
+  "online_prices": [19.9, 199, 1999],
+  "core_principle": "估值与故事",
+  "practice_base": "股票量化实操",
+  "proof_points": ["创始人访谈", "企业大事记", "管理制度", "客户案例", "公开报道"]
+}
